@@ -1,0 +1,30 @@
+{
+  "name": "employee_tracker",
+  "version": "1.0.0",
+  "description": "manages employee db",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jonathang95/employee_tracker.git"
+  },
+  "keywords": [
+    "bingus"
+  ],
+  "author": "JON",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jonathang95/employee_tracker/issues"
+  },
+  "homepage": "https://github.com/Jonathang95/employee_tracker#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "inquirer": "^9.2.16",
+    "mysql2": "^3.9.2",
+    "table": "^6.8.2"
+  }
+}
